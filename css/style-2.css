@@ -1,0 +1,90 @@
+body {
+	margin: 400;
+	
+}
+
+#content {
+	max-width: 2000px;
+	max-height:4000px;
+	margin: 2000 auto;	
+	background-image: url(https://www.sportsballshop.co.uk/acatalog/GilbertBarbarian1.jpg);
+}
+
+h1 {
+	color: Green;
+	font-size: 36px;
+	font-family: "Courier New";
+	padding: 0px 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	height: 100%;
+}
+p {
+	color: white;
+	font-size: 24px;
+	font-family: "Courier New";
+}
+.image > img {
+	border: 4px white;
+	margin: 20px;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: white; /* Red */
+    border: none;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+	
+}
+
+.formLayout
+{
+    background-color: green;
+    border: solid 1px white;
+    padding: 10px;
+    width: 500px;
+	height: 1000px;
+	margin-left: 300px;
+}
+
+.formLayout label, .formLayout input
+{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 18px;
+    font-family: "Courier New";
+	font-weight: bold;
+}
+
+.formLayout label
+{
+    text-align: right;
+    padding-right: 20px;
+}
+
+br
+{
+    clear: middle;
+}
